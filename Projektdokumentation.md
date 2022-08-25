@@ -20,8 +20,11 @@
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    | muss            |      | Als ein Spieler möchte ich dass eine Zahl generiert wird, die ich erraten kann, damit ich diese erraten kann            |
+| 2    | muss            |      | Als ein Spieler möchte ich eine Zahl eingeben können, damit ich raten kann                                              |
+| 3    | muss            |      | Als ein Spieler möchte ich Anweisungen bekommen, damit ich weiss, was ich machen muss                                   |
+| 4    | muss            |      | Als ein Spieler möchte ich erfahren, ob ich zu hoch oder zu tief geraten habe, damit ich weniger eingeben muss          |
+| 5    | kann            |      | Als ein Spieler möchte ich bei einer falschen eingabe gewarnt werden, damit ich das Programm nicht zum abstürzen bringe |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -29,8 +32,14 @@
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Das Programm tut nichts | Ich starte und beende das Programm | Ich bekomme keine Fehlermeldungen                   |
+| 2.1  | Das Programm startet und ein cursor erscheint | ich gebe die Zahl 50 ein | Das Programm Endet ohne Fehlermeldungen |
+| 3.1  | Ich starte das Programm | ich tue nichts | Das Programm sagt "Gebe eine Zahl ein" |
+| 3.2  | Das Programm startet | ich gebe die Zahl 50 ein | Das Programm Sagt mir ob ich die Zahl erraten habe |
+| 4.1  | Das Programm startet und ein cursor erscheint | ich gebe die Zahl 50 ein | Das Programm sagt entweder "zu hoch" oder "zu tief" |
+| 5.1  | Das Programm startet und ein cursor erscheint | ich gebe die Zahl -20 ein | Das Programm sagt "bitte gebe eine zahl zwischen 1 und 100 ein" |
+| 5.2  | Das Programm startet und ein cursor erscheint | ich gebe die Zahl 0 ein | Das Programm sagt "bitte gebe eine zahl zwischen 1 und 100 ein" |
+| 5.3  | Das Programm startet und ein cursor erscheint | ich gebe die Zahl 621 ein | Das Programm sagt "bitte gebe eine zahl zwischen 1 und 100 ein" |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -43,7 +52,7 @@
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.B  |       |           |              |               |
 
 Total: 
 
