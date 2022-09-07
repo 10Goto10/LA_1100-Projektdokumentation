@@ -51,11 +51,11 @@
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| 1.B  |       |           |              |               |
-| 1.C  |       |           |              |               |
-| 1.D  |       |           |              |               |
-| 1.E  |       |           |              |               |
+| 1.A  |       |           |              | 45 min.       |
+| 2.B  |       |           |              | 45 min.       |
+| 3.C  |       |           |              | 45 min.       |
+| 4.D  |       |           |              | 45 min.       |
+| 5.E  |       |           |              | 45 min.       |
 
 Total: 
 
@@ -71,8 +71,11 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |       |           |               | 30 min.           |
+| 2.B  |       |           |               | 30 min.           |
+| 3.C  |       |           |               | 30 min.           |
+| 4.D  |       |           |               | 30 min.           |
+| 5.E  |       |           |               | 30 min.           |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
