@@ -6,25 +6,29 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 1.9.  | 0.0.1   | Ich habe die wichtigsten Elemente wie den Zufallszahlgenerator implementiert|
+| 8.9.  | 1.0.0   | Ich habe alle "muss"-User Stories in das Programm eingebaut  |
+|       |         |                                                              |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Ich erstelle ein Programm, welches eine Zufallszahl generiert, die von dem Benutzer erraten werden kann.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    | muss            |      | Als ein Spieler möchte ich dass eine Zahl generiert wird, die ich erraten kann, damit ich diese erraten kann            |
-| 2    | muss            |      | Als ein Spieler möchte ich eine Zahl eingeben können, damit ich raten kann                                              |
-| 3    | muss            |      | Als ein Spieler möchte ich Anweisungen bekommen, damit ich weiss, was ich machen muss                                   |
-| 4    | muss            |      | Als ein Spieler möchte ich erfahren, ob ich zu hoch oder zu tief geraten habe, damit ich weniger eingeben muss          |
-| 5    | kann            |      | Als ein Spieler möchte ich bei einer falschen eingabe gewarnt werden, damit ich das Programm nicht zum abstürzen bringe |
+| 1    | muss            | Funktional | Als ein Spieler möchte ich dass eine Zahl generiert wird, die ich erraten kann, damit ich diese erraten kann             |
+| 2    | muss            | Funktional | Als ein Spieler möchte ich eine Zahl eingeben können, damit ich raten kann                                               |
+| 3    | muss            | Qualität | Als ein Spieler möchte ich Anweisungen bekommen, damit ich weiss, was ich machen muss                                    |
+| 4    | muss            | Funktional | Als ein Spieler möchte ich erfahren, ob ich zu hoch oder zu tief geraten habe, damit ich weniger eingeben muss           |
+| 5    | muss            | Qualität | Als ein Spieler möchte ich bei einer falschen eingabe gewarnt werden, damit ich das Programm nicht zum abstürzen bringe  |
+| 6    | kann            | Qualität | Als ein Spieler möchte ich erfahren, wie viele versuche ich gebraucht habe, damit ich sehen kann, wie gut ich raten kann |
+| 7    | kann            | Qualität | Als ein Spieler möchte ich verschiedene Textfarben sehen, damit ich die Verschiedenen Nachrichten besser unterscheiden kann |
+
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -45,39 +49,41 @@
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![Hauptprogramm 1](https://user-images.githubusercontent.com/111045975/189069514-ccf9ff8f-1b5c-40bb-83d3-557d08ae3f25.png)
+
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              | 45 min.       |
-| 2.B  |       |           |              | 45 min.       |
-| 3.C  |       |           |              | 45 min.       |
-| 4.D  |       |           |              | 45 min.       |
-| 5.E  |       |           |              | 45 min.       |
+| 1.A  | 1.9.  | Noah      | Das Program soll eine Zufallszahl generieren | 45 Min.       |
+| 2.B  | 1.9.  | Noah      | Das Programm soll den Spieler nach einer Zahl fragen             | 45 Min.       |
+| 3.C  | 1.9.  | Noah      | Das Programm soll dem Spieler Anweisungen geben, was er machen muss             | 45 Min.       |
+| 5.D  | 8.9.  | Noah      | Ich baue ein "try" und ein "catch" Element ein, welches den Spieler bei Falscheingaben warnt             | 45 Min.       |
+| 4.E  | 8.9.  | Noah      | Ich erweitere das try-Element um einen Test, ob die Zahl zwischen 1 und 100 ist          | 45 Min.       |
+| 6.F  | 15.9. | Noah      | Ich Implementiere eine Variable, die zählt, wie viele Versuche der Spieler benötigt hat, um die Zahl zu erraten     | 45 Min.       |
+| 7.G  | 15.9. | Noah      |            | 45 Min.       |
 
 Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich habe mich dazu entschieden, dass ich, nachdem ich alle "muss"-User Stories implementiert habe, noch weitere Elemente wie farbigen Text und die Angabe der Menge an Versuchen, die der Spieler gebraucht hat, implementieren werde.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| 2.B  |       |           |               |                   |
-| 3.C  |       |           |               |                   |
-| 4.D  |       |           |               |                   |
-| 5.E  |       |           |               |                   |
+| 1.A  | 1.9.  | Noah      | 45 Min.       |                   |
+| 2.B  | 1.9.  | Noah      | 45 Min.       |                   |
+| 3.C  | 1.9.  | Noah      | 45 Min.       |                   |
+| 5.D  | 1.9.  | Noah      | 45 Min.       |                   |
+| 4.E  |       | Noah      | 45 Min.       |                   |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
 
 ## 5 Kontrollieren
 
