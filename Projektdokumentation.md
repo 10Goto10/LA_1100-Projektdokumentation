@@ -2,7 +2,7 @@
 
 ☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
 
-✍️ Ihr Gruppenname und Ihre Nachnamen
+Meier
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -27,10 +27,12 @@ Ich erstelle ein Programm, welches eine Zufallszahl generiert, die von dem Benut
 | 5    | muss            | Qualität | Als ein Spieler möchte ich bei einer falschen eingabe gewarnt werden, damit ich das Programm nicht zum abstürzen bringe  |
 | 6    | kann            | Qualität | Als ein Spieler möchte ich erfahren, wie viele versuche ich gebraucht habe, damit ich sehen kann, wie gut ich raten kann |
 | 7    | kann            | Qualität | Als ein Spieler möchte ich verschiedene Textfarben sehen, damit ich die Verschiedenen Nachrichten besser unterscheiden kann |
+| 8    | kann            | Qualität | Als ein Spieler möchte ich Ascii-Art sehen, damit das Programm ansprechender für mich ist|
 
 
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+
+
 
 ### 1.3 Testfälle
 
@@ -45,7 +47,7 @@ Ich erstelle ein Programm, welches eine Zufallszahl generiert, die von dem Benut
 | 5.2  | Das Programm startet und ein cursor erscheint | ich gebe die Zahl 0 ein | Das Programm sagt "bitte gebe eine zahl zwischen 1 und 100 ein" |
 | 5.3  | Das Programm startet und ein cursor erscheint | ich gebe die Zahl 621 ein | Das Programm sagt "bitte gebe eine zahl zwischen 1 und 100 ein" |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+
 
 ### 1.4 Diagramme
 
@@ -62,7 +64,9 @@ Ich erstelle ein Programm, welches eine Zufallszahl generiert, die von dem Benut
 | 5.D  | 8.9.  | Noah      | Ich baue ein "try" und ein "catch" Element ein, welches den Spieler bei Falscheingaben warnt             | 45 Min.       |
 | 4.E  | 8.9.  | Noah      | Ich erweitere das try-Element um einen Test, ob die Zahl zwischen 1 und 100 ist          | 45 Min.       |
 | 6.F  | 15.9. | Noah      | Ich Implementiere eine Variable, die zählt, wie viele Versuche der Spieler benötigt hat, um die Zahl zu erraten     | 45 Min.       |
-| 7.G  | 15.9. | Noah      |            | 45 Min.       |
+| 7.G  | 15.9. | Noah      | Ich Implementiere Anweisungen in verschiedenen Farben  | 45 Min.       |
+| 8.H  | 15.9. | Noah      | Ich ersetzte den Text an manchen stellen durch Ascii-Art. | 45 Min.       |
+
 
 Total: 
 
@@ -77,11 +81,13 @@ Ich habe mich dazu entschieden, dass ich, nachdem ich alle "muss"-User Stories i
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 1.9.  | Noah      | 45 Min.       |                   |
-| 2.B  | 1.9.  | Noah      | 45 Min.       |                   |
-| 3.C  | 1.9.  | Noah      | 45 Min.       |                   |
-| 5.D  | 1.9.  | Noah      | 45 Min.       |                   |
-| 4.E  |       | Noah      | 45 Min.       |                   |
+| 1.A  | 1.9.  | Noah      | 45 Min.       | 30                  |
+| 2.B  | 1.9.  | Noah      | 45 Min.       | 30                  |
+| 3.C  | 1.9.  | Noah      | 45 Min.       | 30                  |
+| 5.D  | 8.9.  | Noah      | 45 Min.       | 40                 |
+| 4.E  | 8.9.  | Noah      | 45 Min.       | 35                  |
+| 6.F  | 15.9. | Noah      | 45 Min.       | 30                  |
+| 7.G  | 15.9. | Noah      | 45 Min.       | 25                  |
 
 
 
