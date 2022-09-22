@@ -18,21 +18,37 @@ Ich habe gelernt, wie ich den Try-Catch Block in einem Programm implementieren k
  try
                         {
                             erratetZahl = Convert.ToInt16(Console.ReadLine());
+                            
                             if ((erratetZahl > 100) || (erratetZahl < 1))
+                            
                             {
+                            
                                 throw new Exception();
+                                
                             }
+                            
                             Invalidentry=false;
+                            
                         }
+                        
                         catch
+                        
                         {
+                        
                             Console.BackgroundColor = ConsoleColor.Red;
+                            
                             Console.ForegroundColor = ConsoleColor.Black;
+                            
                             Console.WriteLine("Bitte geben sie eine Zahl zwichen 1 und 100 ein");
+                            
                             Console.BackgroundColor = ConsoleColor.Black;
+                            
                             Console.ForegroundColor = ConsoleColor.White;
+                            
                             Invalidentry =true;
+                            
                         }
+                        
 
 `
 
