@@ -106,7 +106,7 @@ Ich habe mich dazu entschieden, dass ich, nachdem ich alle "muss"-User Stories i
 | 5.2  | 22.09.2022 | funktioniert | Noah |
 | 5.3  | 22.09.2022 | funktioniert | Noah |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Ich bin mit meinen Testenrgebnissen sehr zufrieden, da sie alle funktionieren.
 
 ### 5.2 Exploratives Testen
 
