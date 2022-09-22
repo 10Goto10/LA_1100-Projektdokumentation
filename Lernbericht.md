@@ -16,7 +16,7 @@ Das Try-Catch Element ist grundsätzlich da, um ein Absturz eines Programmes zu 
 Der Try-Catch Block ist sehr gut für eingaben geeignet, da die Funktion "Convert.ToInt16(Console.ReadLine());" sofort einen Fehler aufwirft, wenn wenn keine Gültige Zahl eingegeben wird. Zusätlich kann man den Block "throw new Exception();" sehr gut in Kombination mit einem If-Statement verwenden, um z.B. zu überprüfen, ob die eingegebene Zahl Zwischen 1 und 100 liegt.
 
 
-                    Invalidentry=true;        // Die Bool-Variabel Invalidentry wird auf true gesetzt und unten Geprüft, um sicherzustellen, dass der Code bei einer                                                    Falscheingabe nicht weiterlaufen kann
+                    Invalidentry=true;        // Die Bool-Variabel Invalidentry wird auf true gesetzt und unten Geprüft, um sicherzustellen, dass der Code bei einer Falscheingabe nicht weiterlaufen kann
                         
                     do
                     {
