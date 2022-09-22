@@ -1,6 +1,5 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
 
 Meier
 
@@ -119,4 +118,4 @@ Ich bin mit meinen Testenrgebnissen sehr zufrieden, da sie alle funktionieren.
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+https://github.com/10Goto10/LA_1100-Projektdokumentation/blob/main/Lernbericht.md
