@@ -8,13 +8,19 @@ In diesem Projekt ging es um ein Programm, welches eine zufällige Zahl generier
 
 ## Was habe ich gelernt?
 
-Ich habe gelernt, wie ich den Try-Catch Block in einem Programm implementieren kann.
+Ich habe gelernt, wie ich eien Try-Catch Block in einem Programm implementieren kann.
 
 ## Beschreibung
 
-Diese
+Das Try-Catch Element ist grundsätzlich da, um ein Absturz eines Programmes zu verhindern. Der Code ,welcher von "try {}" umschlossen ist, wird, wenn er Ausgeführt werden sollte, zuerst überprüft. Wenn dieses "überprüfen" keinen Fehler erzeugt, wird der ganze Code im Try-Elemt ausgeführ. Falls allerding ein Fehler erzeugt werden würde, wird der Code im Try-Element nur bis zu der Zeile ausgeführ, in der der Fehler entstanden ist. Zusätzlich wird bei einem Laufzeitfehler der Code im Catch-Element ausgefüht. Es ist ausserdem möglich, einen Fehler bewusst aufzurufen mit dem Befehl "throw new Exception();" 
+Der Try-Catch Block ist sehr gut für eingaben geeignet, da die Funktion "Convert.ToInt16(Console.ReadLine());" sofort einen Fehler aufwirft, wenn wenn keine Gültige Zahl eingegeben wird.
 
-``
+
+                    Invalidentry=true;
+                        
+                    do
+                    {
+                        
                         try
                         {
                             erratetZahl = Convert.ToInt16(Console.ReadLine());
@@ -34,22 +40,12 @@ Diese
                         catch
                         
                         {
-                        
-                            Console.BackgroundColor = ConsoleColor.Red;
-                            
-                            Console.ForegroundColor = ConsoleColor.Black;
                             
                             Console.WriteLine("Bitte geben sie eine Zahl zwichen 1 und 100 ein");
                             
-                            Console.BackgroundColor = ConsoleColor.Black;
-                            
-                            Console.ForegroundColor = ConsoleColor.White;
-                            
-                            Invalidentry =true;
-                            
                         }
                         
-``
+                     } while (Invalidentry);                        
 
 
 ## Verifikation
