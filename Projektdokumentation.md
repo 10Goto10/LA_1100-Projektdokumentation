@@ -8,7 +8,7 @@ Meier
 | ----- | ------- | ------------------------------------------------------------ |
 | 1.9.  | 0.0.1   | Ich habe die wichtigsten Elemente wie den Zufallszahlgenerator implementiert|
 | 8.9.  | 1.0.0   | Ich habe alle "muss"-User Stories in das Programm eingebaut  |
-|       |         |                                                              |
+| 15.9. | 1.0.1   | Ich habe viele weitere funktionen Eingebaut   |    
 
 ## 1 Informieren
 
