@@ -14,7 +14,7 @@ Ich habe gelernt, wie ich den Try-Catch Block in einem Programm implementieren k
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
-'
+`
  try
                         {
                             erratetZahl = Convert.ToInt16(Console.ReadLine());
@@ -34,7 +34,7 @@ Ich habe gelernt, wie ich den Try-Catch Block in einem Programm implementieren k
                             Invalidentry =true;
                         }
 
-'
+`
 
 ## Verifikation
 
