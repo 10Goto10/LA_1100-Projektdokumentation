@@ -81,13 +81,13 @@ Ich habe mich dazu entschieden, dass ich, nachdem ich alle "muss"-User Stories i
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 1.9.  | Noah      | 45 Min.       | 30                  |
-| 2.B  | 1.9.  | Noah      | 45 Min.       | 30                  |
-| 3.C  | 1.9.  | Noah      | 45 Min.       | 30                  |
-| 5.D  | 8.9.  | Noah      | 45 Min.       | 40                 |
-| 4.E  | 8.9.  | Noah      | 45 Min.       | 35                  |
-| 6.F  | 15.9. | Noah      | 45 Min.       | 30                  |
-| 7.G  | 15.9. | Noah      | 45 Min.       | 25                  |
+| 1.A  | 1.9.  | Noah      | 45 Min.       | 30 Min.           |
+| 2.B  | 1.9.  | Noah      | 45 Min.       | 30 Min.           |
+| 3.C  | 1.9.  | Noah      | 45 Min.       | 30 Min.           |
+| 5.D  | 8.9.  | Noah      | 45 Min.       | 40 Min.           |
+| 4.E  | 8.9.  | Noah      | 45 Min.       | 35 Min.           |
+| 6.F  | 15.9. | Noah      | 45 Min.       | 30 Min.           |
+| 7.G  | 15.9. | Noah      | 45 Min.       | 25 Min.           |
 
 
 
@@ -95,10 +95,16 @@ Ich habe mich dazu entschieden, dass ich, nachdem ich alle "muss"-User Stories i
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| TC-№ | Datum      | Resultat     | Tester |
+| ---- | -----      | --------     | ------ |
+| 1.1  | 22.09.2022 | funktioniert | Noah |
+| 2.1  | 22.09.2022 | funktioniert | Noah |
+| 3.1  | 22.09.2022 | funktioniert | Noah |
+| 3.2  | 22.09.2022 | funktioniert | Noah |
+| 4.1  | 22.09.2022 | funktioniert | Noah |
+| 5.1  | 22.09.2022 | funktioniert | Noah |
+| 5.2  | 22.09.2022 | funktioniert | Noah |
+| 5.3  | 22.09.2022 | funktioniert | Noah |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
